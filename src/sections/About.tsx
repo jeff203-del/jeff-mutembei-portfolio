@@ -32,7 +32,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="btn btn-primary"
               >
-                View Résumé
+                View Resume
               </a>
               <Link
                 to="contact"
