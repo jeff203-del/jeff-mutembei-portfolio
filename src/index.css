@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded border-2 font-medium transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-transparent border-secondary text-secondary hover:bg-secondary hover:text-primary;
+  }
+}
