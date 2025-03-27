@@ -27,7 +27,7 @@ const About = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="/resume.pdf"
+                href="https://jeff-mutembei.netlify.app//resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"
