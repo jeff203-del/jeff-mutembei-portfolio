@@ -26,14 +26,13 @@ const About = () => {
               When I'm not coding or designing, I enjoy swiming, photography, and exploring new places. I'm also a big fan of science fiction and always up for a good conversation about the latest tech trends.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a
-                href="https://jeff-mutembei.netlify.app//resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
-                View Resume
-              </a>
+              <a href="/resume.pdf"
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn btn-primary">
+ View Résumé
+</a>
+
               <Link
                 to="contact"
                 spy={true}
