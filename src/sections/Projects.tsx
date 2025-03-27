@@ -146,7 +146,7 @@ const Projects = () => {
           >
             See More on GitHub
           </a>
-          /*
+          */
         </div>
       </div>
     </section>
