@@ -10,7 +10,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
           <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 border-4 border-secondary">
             <img
-              src="src/image.jpg.JPG"
+              src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Jeff Mutembei"
               className="w-full h-full object-cover"
             />
