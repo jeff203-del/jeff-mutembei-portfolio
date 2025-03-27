@@ -144,7 +144,7 @@ const Projects = () => {
           //  rel="noopener noreferrer"
           //  className="btn btn-primary"
           >
-            See More on GitHub
+            
           </a>
           
         </div>
