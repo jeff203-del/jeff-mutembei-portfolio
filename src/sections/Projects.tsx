@@ -138,7 +138,7 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a
+       /*   <a
             href="https://github.com/jeff203-del"
             target="_blank"
             rel="noopener noreferrer"
@@ -146,6 +146,7 @@ const Projects = () => {
           >
             See More on GitHub
           </a>
+          /*
         </div>
       </div>
     </section>
