@@ -138,15 +138,15 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-       /*   <a
-            href="https://github.com/jeff203-del"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
+          <a
+          //  href="https://github.com/jeff203-del"
+          //  target="_blank"
+          //  rel="noopener noreferrer"
+          //  className="btn btn-primary"
           >
             See More on GitHub
           </a>
-          */
+          
         </div>
       </div>
     </section>
