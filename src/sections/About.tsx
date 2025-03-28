@@ -75,15 +75,17 @@ const About = () => {
                 </svg>
               </div>
               <span className="text-light font-medium">Software Engineer</span>
-            </div>
+            
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
-                </svg>
-              </div>
-              <span className="text-light font-medium">Swimming</span>
-            </div>
+  <div className="w-16 h-16 bg-blue-300 rounded-full flex items-center justify-center mb-4 relative">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-700" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M4.5 17c1.5 1 3 1 4.5 0s3-1 4.5 0 3 1 4.5 0 3-1 4.5 0" />
+      <circle cx="9" cy="6" r="2" />
+      <path d="M9 8c1 0 2 1.5 3 2.5s2 1 3.5 1.5 2.5 0 3.5-1.5c-1-1-2-1.5-3-2.5S12 7 11 8c-1 1-2 3-2 3" />
+    </svg>
+  </div>
+  <span className="text-blue-700 font-medium">Swimming</span>
+</div>
           </div>
         </div>
       </div>
