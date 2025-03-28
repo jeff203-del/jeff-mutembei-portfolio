@@ -11,7 +11,7 @@ const Experience = () => {
     {
       company: "WebSolutions",
       logo: "https://logo.clearbit.com/ea.com",
-      role: "Junior Web Developer",
+      role: "Web Developer",
       period: "2024 May-sep",
       description: "Worked on various client projects building responsive websites. Collaborated with design teams to implement UI/UX designs using modern web technologies."
     }
