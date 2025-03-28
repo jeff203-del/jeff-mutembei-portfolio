@@ -2,15 +2,15 @@ const Experience = () => {
   const experiences = [
     {
       company: "TechCorp",
-      logo: "https://logo.clearbit.com/google.com",
-      role: "Senior Software Developer",
+      logo: "https://logo.clearbit.com/bing.com",
+      role: "Software Developer",
       period: "2025 - Present",
       description: "Lead the frontend development team working on scalable React applications. Implemented CI/CD pipelines and improved application performance by 40%."
     },
     
     {
       company: "WebSolutions",
-      logo: "https://logo.clearbit.com/microsoft.com",
+      logo: "https://logo.clearbit.com/ea.com",
       role: "Junior Web Developer",
       period: "2024 May-sep",
       description: "Worked on various client projects building responsive websites. Collaborated with design teams to implement UI/UX designs using modern web technologies."
