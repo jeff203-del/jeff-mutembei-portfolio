@@ -26,12 +26,14 @@ const About = () => {
               When I'm not coding or designing, I enjoy swimming, photography, and exploring new places. I'm also a big fan of science fiction and always up for a good conversation about the latest tech trends.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="/resume.pdf"
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="btn btn-primary">
- View Résumé
-</a>
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                View Résumé
+              </a>
 
               <Link
                 to="contact"
@@ -75,18 +77,19 @@ const About = () => {
                 </svg>
               </div>
               <span className="text-light font-medium">Software Engineer</span>
+            </div>
+            {/* Swimming Section */}
             <div className="flex flex-col items-center">
- 
               <div className="w-16 h-16 bg-blue-300 rounded-full flex items-center justify-center mb-4 relative overflow-hidden">
-  {/* Swimmer Icon */}
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19s-3-3-6-3-6 3-6 3v2s3-1 6-1 6 1 6 1v-2zm0-8s-3-3-6-3-6 3-6 3v2s3-1 6-1 6 1 6 1v-2z" />
-  </svg>
-  {/* Animation Bar */}
-  <div className="absolute bottom-0 w-full h-2 bg-blue-400 rounded-full animate-pulse"></div>
-</div>
-<span className="text-blue-700 font-medium">Swimming</span>
+                {/* Swimmer Icon */}
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19s-3-3-6-3-6 3-6 3v2s3-1 6-1 6 1 6 1v-2zm0-8s-3-3-6-3-6 3-6 3v2s3-1 6-1 6 1 6 1v-2z" />
+                </svg>
+                {/* Animation Bar */}
+                <div className="absolute bottom-0 w-full h-2 bg-blue-400 rounded-full animate-pulse"></div>
               </div>
+              <span className="text-blue-700 font-medium">Swimming</span>
+            </div> {/* Added missing closing tag here */}
           </div>
         </div>
       </div>
