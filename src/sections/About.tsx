@@ -23,7 +23,7 @@ const About = () => {
               I have a background in computer science with a specialization in web technologies. I'm particularly interested in creating accessible and responsive web applications that deliver exceptional user experiences. I love working with modern JavaScript frameworks and exploring new technologies to solve complex problems.
             </p>
             <p className="text-gray-300 mb-6">
-              When I'm not coding or designing, I enjoy swiming, photography, and exploring new places. I'm also a big fan of science fiction and always up for a good conversation about the latest tech trends.
+              When I'm not coding or designing, I enjoy swimming, photography, and exploring new places. I'm also a big fan of science fiction and always up for a good conversation about the latest tech trends.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/resume.pdf"
@@ -76,14 +76,17 @@ const About = () => {
               </div>
               <span className="text-light font-medium">Software Engineer</span>
             <div className="flex flex-col items-center">
-  <div className="w-16 h-16 bg-blue-300 rounded-full flex items-center justify-center mb-4 relative overflow-hidden">
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 16s3-3 6-3 6 3 6 3 3-3 6-3m-6 5s3-3 6-3 6 3 6 3" />
-    </svg>
-    <div className="absolute bottom-0 w-full h-2 bg-blue-400 rounded-full animate-pulse"></div>
-  </div>
-  <span className="text-blue-700 font-medium">Swimming</span>
+ 
+              <div className="w-16 h-16 bg-blue-300 rounded-full flex items-center justify-center mb-4 relative overflow-hidden">
+  {/* Swimmer Icon */}
+  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19s-3-3-6-3-6 3-6 3v2s3-1 6-1 6 1 6 1v-2zm0-8s-3-3-6-3-6 3-6 3v2s3-1 6-1 6 1 6 1v-2z" />
+  </svg>
+  {/* Animation Bar */}
+  <div className="absolute bottom-0 w-full h-2 bg-blue-400 rounded-full animate-pulse"></div>
 </div>
+<span className="text-blue-700 font-medium">Swimming</span>
+              </div>
           </div>
         </div>
       </div>
