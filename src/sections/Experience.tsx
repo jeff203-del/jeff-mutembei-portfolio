@@ -16,8 +16,8 @@ const Experience = () => {
     },
     
     {
-      company: "Skytech corp",
-      logo: "https://logo.clearbit.com/ea.com",
+      company: "Skycorp solutions",
+      logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/large/s3/avatar_white.jpg?NKLva1xpa1py3FpzjElVTC3UBJmkj7pV&itok=DkC6lwAH",
       role: "Web Developer",
       period: "2024 July-Sep",
       description: "Worked on various client projects building responsive websites. Collaborated with design teams to implement UI/UX designs using modern web technologies."
