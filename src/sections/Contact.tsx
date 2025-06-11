@@ -24,26 +24,41 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  // ✅ UPDATED handleSubmit function to send message via Formspree
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitStatus('submitting');
 
-    // Simulate form submission
-    setTimeout(() => {
-      console.log('Form submitted:', formData);
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
+    try {
+      const response = await fetch('https://formspree.io/f/xeokgoqn', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message
+        })
       });
 
-      // Reset status after 3 seconds
-      setTimeout(() => {
-        setSubmitStatus('idle');
-      }, 3000);
-    }, 1000);
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: ''
+        });
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      setSubmitStatus('error');
+    }
+
+    setTimeout(() => setSubmitStatus('idle'), 3000);
   };
 
   return (
