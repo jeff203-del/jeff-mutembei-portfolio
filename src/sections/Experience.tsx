@@ -1,18 +1,25 @@
 const Experience = () => {
   const experiences = [
     {
-      company: "TechCorp",
-      logo: "https://logo.clearbit.com/bing.com",
+      company: "Kahustle",
+      logo: "https://kahustle.co.ke/wp-content/uploads/2025/04/350-LOGO-2.png",
+      role: "Web Developer",
+      period: "2025 March-June",
+      description: "Supported the development and testing of Kahustle, a Kenyan online classifieds platform, focusing on user experience, functionality, and feature enhancements"
+    },
+    {
+      company: "InfoTech",
+      logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/large/s3/etcetera_accesorios_logo.png?1f3ZJE3.gGWD57HiExGrJNwkyo2Yy.y3&itok=UhLxNzVR",
       role: "Software Developer",
-      period: "2025 - Present",
+      period: "2025 Jan-April",
       description: "Lead the frontend development team working on scalable React applications. Implemented CI/CD pipelines and improved application performance by 40%."
     },
     
     {
-      company: "WebSolutions",
+      company: "Skytech corp",
       logo: "https://logo.clearbit.com/ea.com",
       role: "Web Developer",
-      period: "2024 May-sep",
+      period: "2024 July-Sep",
       description: "Worked on various client projects building responsive websites. Collaborated with design teams to implement UI/UX designs using modern web technologies."
     }
   ];
