@@ -31,7 +31,7 @@ const Experience = () => {
           Experience
         </h2>
         <p className="text-center text-gray-300 mb-16 max-w-3xl mx-auto">
-          I've been doing web development for several years, consistently delivering high-quality solutions and always eager to learn more in this fast-paced industry.
+          I've been doing web development for several years, consistently delivering high-quality products and always eager to learn more in this fast-paced industry.
         </p>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -66,7 +66,7 @@ const Experience = () => {
             rel="noopener noreferrer"
             className="btn btn-primary"
           >
-            View Full Résumé
+            View Full Resume
           </a>
         </div>
       </div>
