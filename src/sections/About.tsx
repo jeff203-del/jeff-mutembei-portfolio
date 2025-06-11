@@ -23,7 +23,7 @@ const About = () => {
               I have a background in computer science with a specialization in web technologies. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
             </p>
             <p className="text-gray-300 mb-6">
-              When I'm not coding or designing, I enjoy swimming, photography, and exploring new places. I'm also a big fan of science fiction and always up for a good conversation about the latest tech trends.
+              When I'm not coding or designing, I enjoy hiking, photography, and exploring new places. I'm also a big fan of science fiction and always up for a good conversation about the latest tech trends.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -85,7 +85,7 @@ const About = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
                 </svg>
               </div>
-              <span className="text-light font-medium">Swimming</span>
+              <span className="text-light font-medium">Hiking</span>
             </div> {/* Added missing closing tag here */}
           </div>
         </div>
