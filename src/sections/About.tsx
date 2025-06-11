@@ -80,15 +80,14 @@ const About = () => {
             </div>
             {/* Swimming Section */}
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-blue-300 rounded-full flex items-center justify-center mb-4 relative overflow-hidden">
-                {/* Swimmer Icon */}
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19s-3-3-6-3-6 3-6 3v2s3-1 6-1 6 1 6 1v-2zm0-8s-3-3-6-3-6 3-6 3v2s3-1 6-1 6 1 6 1v-2z" />
-                </svg>
-                {/* Animation Bar */}
-                <div className="absolute bottom-0 w-full h-2 bg-blue-400 rounded-full animate-pulse"></div>
-              </div>
-              <span className="text-blue-700 font-medium">Swimming</span>
+  <div className="w-16 h-16 bg-blue-300 rounded-full flex items-center justify-center mb-4 relative">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-700" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M4.5 17c1.5 1 3 1 4.5 0s3-1 4.5 0 3 1 4.5 0 3-1 4.5 0" />
+      <circle cx="9" cy="6" r="2" />
+      <path d="M9 8c1 0 2 1.5 3 2.5s2 1 3.5 1.5 2.5 0 3.5-1.5c-1-1-2-1.5-3-2.5S12 7 11 8c-1 1-2 3-2 3" />
+    </svg>
+  </div>
+              <span className="text-light font-medium">Swimming</span>
             </div> {/* Added missing closing tag here */}
           </div>
         </div>
