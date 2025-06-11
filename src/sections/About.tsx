@@ -17,7 +17,7 @@ const About = () => {
           </div>
           <div className="max-w-2xl">
             <p className="text-gray-300 mb-4">
-              Hey! My name is Jeff Mutembei and I'm a software developer with a passion for front-end development and user experience design. I'm currently a fourth year student at <a href="https://www.kcau.ac.ke/" target="_blank" rel="noopener noreferrer">KCA University</a> pursuing a degree in Bsc Information Technology.
+              Hey! My name is Jeff Mutembei and I'm a software developer with a passion for front-end development and user experience design. I'm currently a fourth year student at <a href="https://www.kcau.ac.ke/" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-semibold"> KCA University </a> pursuing a degree in Bsc Information Technology.
             </p>
             <p className="text-gray-300 mb-4">
               I have a background in computer science with a specialization in web technologies. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
