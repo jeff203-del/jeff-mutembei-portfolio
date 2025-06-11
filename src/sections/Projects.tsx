@@ -65,6 +65,8 @@ const Projects = () => {
         </h2>
         <p className="text-center text-gray-300 mb-16 max-w-3xl mx-auto">
           A selection of my recent projects. Each one has presented unique challenges and learning opportunities.
+          <br />
+  (more coming soon)
         </p>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
