@@ -8,7 +8,7 @@ const About = () => {
           A Little Bit About Me
         </h2>
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
-          <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 border-4 border-secondary">
+          <div className="w-48 h-42 rounded-full overflow-hidden flex-shrink-0 border-4 border-secondary">
             <img
               src="pfp.jpg.png"
               alt="Jeff Mutembei"
