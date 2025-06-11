@@ -79,11 +79,13 @@ const About = () => {
               <span className="text-light font-medium">Software Engineer</span>
             </div>
             {/* Swimming Section */}
-           <div className="flex flex-col items-center">
-  <div className="w-16 h-16 bg-blue-300 rounded-full flex items-center justify-center mb-4 relative overflow-hidden">
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 16s3-3 6-3 6 3 6 3 3-3 6-3m-6 5s3-3 6-3 6 3 6 3" />
+         <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path d="M12 2C9.243 2 7 4.243 7 7c0 1.377.574 2.64 1.5 3.5l-.5 5.5a.5.5 0 00.5.5h1.5v2a1 1 0 002 0v-2h2.5a1 1 0 001-1v-6.5c0-.552-.448-1-1-1H17V7c0-2.757-2.243-5-5-5zm0 2c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3zM5 16a1 1 0 001 1h12a1 1 0 001-1v-1a1 1 0 00-1-1H6a1 1 0 00-1 1v1z"/>
     </svg>
+
+    {/* Animated Water Line */}
     <div className="absolute bottom-0 w-full h-2 bg-blue-400 rounded-full animate-pulse"></div>
   </div>
               <span className="text-light font-medium">Swimming</span>
