@@ -41,6 +41,15 @@ const Footer = () => {
             >
               <FontAwesomeIcon icon={faTwitter} size="lg" />
             </a>
+             <a
+              href="https://instagram.com/ady_zmr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-light hover:text-secondary transition-colors"
+              aria-label="Instagram"
+            >
+              <FontAwesomeIcon icon={faInstagram} size="lg" />
+            </a>
             
           </div>
           <div className="text-center">
