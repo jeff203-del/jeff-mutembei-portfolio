@@ -82,7 +82,7 @@ const About = () => {
          <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path d="M12 2C9.243 2 7 4.243 7 7c0 1.377.574 2.64 1.5 3.5l-.5 5.5a.5.5 0 00.5.5h1.5v2a1 1 0 002 0v-2h2.5a1 1 0 001-1v-6.5c0-.552-.448-1-1-1H17V7c0-2.757-2.243-5-5-5zm0 2c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3zM5 16a1 1 0 001 1h12a1 1 0 001-1v-1a1 1 0 00-1-1H6a1 1 0 00-1 1v1z"/>
+      <path d="M12 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zM7 14c-.55 0-1 .45-1 1s.45 1 1 1 .999-.45.999-1-.449-1-1-1zm10 0c-.55 0-1 .45-1 1s.45 1 1 1 .999-.45.999-1-.449-1-1-1zM4 16.5c0-.83.67-1.5 1.5-1.5H7v2H5.5A1.5 1.5 0 0 1 4 16.5zm10 0c0-.83.67-1.5 1.5-1.5h1.5v3H15.5a1.5 1.5 0 0 1-1.5-1.5zm-5 0c0-.83.67-1.5 1.5-1.5h1v3h-1a1.5 1.5 0 0 1-1.5-1.5z"/>
     </svg>
 
     {/* Animated Water Line */}
