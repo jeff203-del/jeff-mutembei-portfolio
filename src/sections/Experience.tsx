@@ -8,11 +8,11 @@ const Experience = () => {
       description: "Supported the development and testing of Kahustle, a Kenyan online classifieds platform, focusing on user experience, functionality, and feature enhancements"
     },
     {
-      company: "InfoTech",
+      company: "Elegant Beauty Brand",
       logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/large/s3/etcetera_accesorios_logo.png?1f3ZJE3.gGWD57HiExGrJNwkyo2Yy.y3&itok=UhLxNzVR",
-      role: "Software Developer",
-      period: "2025 Jan-April",
-      description: "Lead the frontend development team working on scalable React applications. Implemented CI/CD pipelines and improved application performance by 40%."
+      role: "Graphic Designer",
+      period: "2025 Jan-March",
+      description: "developed on‑brand graphics for social media, boosting Instagram engagement by 45%. I designed premium packaging for a new wig line, driving a 20% increase in pre‑launch orders. "
     },
     
     {
