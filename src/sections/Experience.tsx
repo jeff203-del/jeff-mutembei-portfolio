@@ -12,7 +12,7 @@ const Experience = () => {
       logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/large/s3/etcetera_accesorios_logo.png?1f3ZJE3.gGWD57HiExGrJNwkyo2Yy.y3&itok=UhLxNzVR",
       role: "Graphic Designer",
       period: "2025 Jan-March",
-      description: "developed on‑brand graphics for social media, boosting Instagram engagement by 45%. I designed premium packaging for a new wig line, driving a 20% increase in pre‑launch orders. "
+      description: "Developed on‑brand graphics for social media, boosting Instagram engagement by 45%. I designed premium packaging for a new wig line, driving a 20% increase in pre‑launch orders. "
     },
     
     {
