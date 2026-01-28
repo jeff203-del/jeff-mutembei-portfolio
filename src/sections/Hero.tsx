@@ -17,7 +17,7 @@ const Hero = () => {
             Hi, I'm Jeff Mutembei
           </h1>
           <p className="text-2xl md:text-3xl mb-8 text-secondary">
-            Software Developer & UX Enthusiast
+            Software Developer & UI/UX Enthusiast
           </p>
           <div className="mt-8">
             <Link
