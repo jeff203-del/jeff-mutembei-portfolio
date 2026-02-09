@@ -53,7 +53,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1512070679279-8988d32161be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80",
       technologies: ["React", "TMDB API", "Styled Components", "Firebase Auth"],
       github: "https://github.com/jeffmutembei/movie-database",
-      liveLink: "https://movie-database-demo.com"
+      liveLink: "https://github.com/jeff203-del/Movie-Booking-"
     },
   ];
 
