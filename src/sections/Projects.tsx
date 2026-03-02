@@ -48,12 +48,12 @@ const Projects = () => {
       liveLink: "https://fitness-tracker-demo.com"
     },
     {
-      title: "Movie Database",
-      description: "Film and TV show database with recommendations and user reviews.",
+      title: "ARVR Cinema",
+      description: "The Movie Ticket Booking System facilitates the users to review and enquire about the recent movies available movies, booking, and cancellation of movie tickets.",
       image: "https://images.unsplash.com/photo-1512070679279-8988d32161be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80",
       technologies: ["React", "TMDB API", "Styled Components", "Firebase Auth"],
-      github: "https://github.com/jeffmutembei/movie-database",
-      liveLink: "https://github.com/jeff203-del/Movie-Booking-"
+      github: "https://github.com/jeff203-del/ARVR-Cinema",
+      liveLink: "https://arvrcinema.netlify.app/"
     },
   ];
 
