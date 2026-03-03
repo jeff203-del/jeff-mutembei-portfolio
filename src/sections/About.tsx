@@ -17,7 +17,7 @@ const About = () => {
           </div>
           <div className="max-w-2xl">
             <p className="text-gray-300 mb-4">
-              Hey! My name is Jeff Mutembei. I am from Nairobi, Kenya. \nI am a passionate Front-End Engineer. I have strong technical skills and extensive experience in crucial frontend technologies such as JavaScript, ReactJS, HTML, and CSS. With a creative flair and an eye for design, I can skilfully bring an application to life, refining every detail to achieve a polished end result. I am also committed to keeping pace with the ever-evolving technological landscape.
+              Hey! My name is Jeff Mutembei. I am from Nairobi, Kenya. </br>I am a passionate Front-End Engineer. I have strong technical skills and extensive experience in crucial frontend technologies such as JavaScript, ReactJS, HTML, and CSS. With a creative flair and an eye for design, I can skilfully bring an application to life, refining every detail to achieve a polished end result. I am also committed to keeping pace with the ever-evolving technological landscape.
             </p>
             <p className="text-gray-300 mb-4">
               I have a background in computer science with a specialization in web technologies. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
