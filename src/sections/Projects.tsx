@@ -16,6 +16,14 @@ const Projects = () => {
       liveLink: "https://ecommerce-demo.com"
     },
     {
+      title: "The Party Yard",
+      description: "A Website where users can book photography grounds, host wedding parties, and celebrate birthdays.",
+      image: "https://marqueemonkeys.com.au/wp-content/uploads/2019/02/marquee-monkeys-2-980x523.jpg",
+      technologies: ["JavaScript", "React", "CSS", "HTML"],
+      github: "https://github.com/jeff203-del/The_Party_Yard",
+      liveLink: "https://the-party-yard.netlify.app/"
+    },
+   /* {
       title: "Weather Dashboard",
       description: "Real-time weather tracking application with interactive maps and 5-day forecasts.",
       image: "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -23,6 +31,7 @@ const Projects = () => {
       github: "https://github.com/jeffmutembei/weather-dashboard",
       liveLink: "https://weather-app-demo.com"
     },
+    */
     {
       title: "Task Management App",
       description: "Collaborative task management application with project tracking and team assignment features.",
@@ -51,7 +60,7 @@ const Projects = () => {
       title: "ARVR Cinema",
       description: "Allows users to review and enquire about the recent movies available movies, booking, and cancellation of movie tickets.",
       image: "https://cdn.dribbble.com/userupload/42180074/file/original-abc7f825ddf72c17ceff66d6bd10e51c.png?resize=400x0",
-      technologies: ["React", "TMDB API", "Styled Components", "Firebase Auth"],
+      technologies: ["React", "HTML", "Styled Components", "Firebase Auth"],
       github: "https://github.com/jeff203-del/ARVR-Cinema",
       liveLink: "https://arvrcinema.netlify.app/"
     },
