@@ -49,6 +49,14 @@ const Projects = () => {
       liveLink: "#"
     },
     {
+      title: "Premier Matchmaking",
+      description: "This is a web application developed utilizing Reactjs, and CSS to cater to individuals searching for romantic relationships.",
+      image: "https://live-production.wcms.abc-cdn.net.au/ea0898c0f7e4910a130d740e0aa88d56?impolicy=wcms_crop_resize&cropH=3749&cropW=3749&xPos=626&yPos=0&width=862&height=862",
+      technologies: ["React Native", "Node.js", "Express", "CSS"],
+      github: "https://github.com/jeff203-del/Premier_Matchmaking",
+      liveLink: "https://premier-match.netlify.app/"
+    },
+   /* {
       title: "Fitness Tracker",
       description: "Mobile-responsive application for tracking workouts, progress, and nutrition goals.",
       image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -56,6 +64,7 @@ const Projects = () => {
       github: "https://github.com/jeffmutembei/fitness-tracker",
       liveLink: "https://fitness-tracker-demo.com"
     },
+    */
     {
       title: "ARVR Cinema",
       description: "Allows users to review and enquire about the recent movies available movies, booking, and cancellation of movie tickets.",
