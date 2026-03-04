@@ -34,11 +34,11 @@ const Projects = () => {
     */
     {
       title: "Task Management App",
-      description: "Collaborative task management application with project tracking and team assignment features.",
+      description: "This is a simple web application that allows you to create a to-do list. You can add new items, mark them as completed, and remove them from the list.",
       image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
-      technologies: ["TypeScript", "React", "Redux", "Firebase"],
-      github: "https://github.com/jeffmutembei/task-manager",
-      liveLink: "https://task-manager-demo.com"
+      technologies: ["JavaScript", "React", "CSS"],
+      github: "https://github.com/jeff203-del/Task-Managemen-App",
+      liveLink: "https://tasks-do-list.netlify.app/"
     },
     {
       title: "Portfolio Website",
