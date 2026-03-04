@@ -6,7 +6,8 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const Projects = () => {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
-  const projects = [
+  // Completed projects
+  const completedProjects = [
     {
       title: "Zalisha Farmers",
       description: "This is a frontend website that provides farming companies , aggregators, farm input providers and farmer cooperatives with a platform manage their activities and operations.",
@@ -82,15 +83,17 @@ const Projects = () => {
       github: "https://github.com/jeff203-del/ARVR-Cinema ",
       liveLink: "https://arvrcinema.netlify.app/ "
     },
-    // NEW PROTOTYPE PROJECTS
+  ];
+
+  // UX/UI Design Prototypes
+  const prototypeProjects = [
     {
       title: "HealthConnect Pro",
       description: "A prototype telemedicine platform connecting patients with healthcare providers for virtual consultations and appointment scheduling.",
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 ",
       technologies: ["Figma", "React", "Node.js", "WebRTC"],
       github: "#",
-      liveLink: "#",
-      isPrototype: true
+      liveLink: "#"
     },
     {
       title: "CryptoVault Dashboard",
@@ -98,8 +101,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80 ",
       technologies: ["Figma", "React", "D3.js", "CoinGecko API"],
       github: "#",
-      liveLink: "#",
-      isPrototype: true
+      liveLink: "#"
     },
     {
       title: "EcoTrack Analytics",
@@ -107,10 +109,82 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 ",
       technologies: ["Figma", "Vue.js", "Chart.js", "Green Software"],
       github: "#",
-      liveLink: "#",
-      isPrototype: true
+      liveLink: "#"
     },
   ];
+
+  // Reusable project card component
+  const ProjectCard = ({ project, index, isPrototype = false }: { project: any, index: number, isPrototype?: boolean }) => (
+    <div
+      className="bg-primary rounded-lg overflow-hidden shadow-lg border border-gray-800 flex flex-col h-full"
+      onMouseEnter={() => setHoveredProject(index)}
+      onMouseLeave={() => setHoveredProject(null)}
+    >
+      <div className="relative h-48 overflow-hidden">
+        <img
+          src={project.image}
+          alt={project.title}
+          className="w-full h-full object-cover transition-transform duration-500 ease-in-out"
+          style={{
+            transform: hoveredProject === index ? 'scale(1.05)' : 'scale(1)'
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-70"></div>
+        <div className="absolute bottom-3 left-3">
+          <h3 className="text-xl font-semibold text-light">{project.title}</h3>
+        </div>
+      </div>
+      <div className="p-5 flex-grow flex flex-col">
+        <p className="text-gray-300 mb-4 flex-grow">{project.description}</p>
+        <div className="flex flex-wrap gap-2 mb-4">
+          {project.technologies.map((tech: string, idx: number) => (
+            <span
+              key={idx}
+              className="px-2 py-1 text-xs bg-[#2a2f45] text-secondary rounded"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+        <div className="flex justify-between items-center">
+          {/* Only show GitHub and Chrome icons for non-prototype projects */}
+          {!isPrototype && (
+            <div className="flex gap-4">
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-light hover:text-secondary transition-colors"
+                aria-label={`GitHub repository for ${project.title}`}
+              >
+                <FontAwesomeIcon icon={faGithub} size="lg" />
+              </a>
+              <a
+                href={project.liveLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-light hover:text-secondary transition-colors"
+                aria-label={`Live demo for ${project.title}`}
+              >
+                <FontAwesomeIcon icon={faChrome} size="lg" />
+              </a>
+            </div>
+          )}
+          {/* Add spacer for prototypes to push button to right */}
+          {isPrototype && <div></div>}
+          <a
+            href={project.liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-secondary hover:text-accent transition-colors flex items-center"
+          >
+            <span className="mr-1">{isPrototype ? "View Prototype" : "View Project"}</span>
+            <FontAwesomeIcon icon={faArrowRight} size="sm" />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 
   return (
     <section id="projects" className="py-20 bg-[#1e2233]">
@@ -124,79 +198,28 @@ const Projects = () => {
   (more coming soon)
         </p>
 
+        {/* Completed Projects Grid */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className="bg-primary rounded-lg overflow-hidden shadow-lg border border-gray-800 flex flex-col h-full"
-              onMouseEnter={() => setHoveredProject(index)}
-              onMouseLeave={() => setHoveredProject(null)}
-            >
-              <div className="relative h-48 overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 ease-in-out"
-                  style={{
-                    transform: hoveredProject === index ? 'scale(1.05)' : 'scale(1)'
-                  }}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-70"></div>
-                <div className="absolute bottom-3 left-3">
-                  <h3 className="text-xl font-semibold text-light">{project.title}</h3>
-                </div>
-              </div>
-              <div className="p-5 flex-grow flex flex-col">
-                <p className="text-gray-300 mb-4 flex-grow">{project.description}</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.map((tech, idx) => (
-                    <span
-                      key={idx}
-                      className="px-2 py-1 text-xs bg-[#2a2f45] text-secondary rounded"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-                <div className="flex justify-between items-center">
-                  {/* Only show GitHub and Chrome icons for non-prototype projects */}
-                  {!project.isPrototype && (
-                    <div className="flex gap-4">
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-light hover:text-secondary transition-colors"
-                        aria-label={`GitHub repository for ${project.title}`}
-                      >
-                        <FontAwesomeIcon icon={faGithub} size="lg" />
-                      </a>
-                      <a
-                        href={project.liveLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-light hover:text-secondary transition-colors"
-                        aria-label={`Live demo for ${project.title}`}
-                      >
-                        <FontAwesomeIcon icon={faChrome} size="lg" />
-                      </a>
-                    </div>
-                  )}
-                  {/* Add spacer for prototypes to push button to right */}
-                  {project.isPrototype && <div></div>}
-                  <a
-                    href={project.liveLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-secondary hover:text-accent transition-colors flex items-center"
-                  >
-                    <span className="mr-1">{project.isPrototype ? "View Prototype" : "View Project"}</span>
-                    <FontAwesomeIcon icon={faArrowRight} size="sm" />
-                  </a>
-                </div>
-              </div>
-            </div>
+          {completedProjects.map((project, index) => (
+            <ProjectCard key={index} project={project} index={index} isPrototype={false} />
           ))}
+        </div>
+
+        {/* UX/UI Designs Section */}
+        <div className="mt-20">
+          <h3 className="text-2xl font-semibold text-center mb-10 text-light">
+            UX/UI Designs
+          </h3>
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {prototypeProjects.map((project, index) => (
+              <ProjectCard 
+                key={`prototype-${index}`} 
+                project={project} 
+                index={completedProjects.length + index} 
+                isPrototype={true} 
+              />
+            ))}
+          </div>
         </div>
 
         <div className="text-center mt-12">
