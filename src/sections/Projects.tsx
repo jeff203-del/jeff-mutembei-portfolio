@@ -8,6 +8,14 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Zalisha Farmers",
+      description: "This is a frontend website that provides farming companies , aggregators, farm input providers and farmer cooperatives with a platform manage their activities and operations.",
+      image: "https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/blt1645b96b020bdced/64380d5d8d2c523d0da7467d/543212762.jpg?width=1280&auto=webp&quality=80&format=jpg&disable=upscale",
+      technologies: ["React", "Node.js", "CSS", "HTML"],
+      github: "https://farm-online.netlify.app/",
+      liveLink: "https://farm-online.netlify.app/"
+    },
+    /*{
       title: "E-commerce Platform",
       description: "A full-featured e-commerce platform with product management, cart functionality, and payment processing.",
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
@@ -15,6 +23,7 @@ const Projects = () => {
       github: "https://github.com/jeffmutembei/ecommerce-platform",
       liveLink: "https://ecommerce-demo.com"
     },
+    */
     {
       title: "The Party Yard",
       description: "A Website where users can book photography grounds, host wedding parties, and celebrate birthdays.",
