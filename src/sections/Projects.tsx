@@ -10,77 +10,105 @@ const Projects = () => {
     {
       title: "Zalisha Farmers",
       description: "This is a frontend website that provides farming companies , aggregators, farm input providers and farmer cooperatives with a platform manage their activities and operations.",
-      image: "https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/blt1645b96b020bdced/64380d5d8d2c523d0da7467d/543212762.jpg?width=1280&auto=webp&quality=80&format=jpg&disable=upscale",
+      image: "https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/blt1645b96b020bdced/64380d5d8d2c523d0da7467d/543212762.jpg?width=1280&auto=webp&quality=80&format=jpg&disable=upscale ",
       technologies: ["React", "Node.js", "CSS", "HTML"],
-      github: "https://farm-online.netlify.app/",
-      liveLink: "https://farm-online.netlify.app/"
+      github: "https://farm-online.netlify.app/ ",
+      liveLink: "https://farm-online.netlify.app/ "
     },
     /*{
       title: "E-commerce Platform",
       description: "A full-featured e-commerce platform with product management, cart functionality, and payment processing.",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+      image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80 ",
       technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-      github: "https://github.com/jeffmutembei/ecommerce-platform",
-      liveLink: "https://ecommerce-demo.com"
+      github: "https://github.com/jeffmutembei/ecommerce-platform ",
+      liveLink: "https://ecommerce-demo.com "
     },
     */
     {
       title: "The Party Yard",
       description: "A Website where users can book photography grounds, host wedding parties, and celebrate birthdays.",
-      image: "https://marqueemonkeys.com.au/wp-content/uploads/2019/02/marquee-monkeys-2-980x523.jpg",
+      image: "https://marqueemonkeys.com.au/wp-content/uploads/2019/02/marquee-monkeys-2-980x523.jpg ",
       technologies: ["JavaScript", "React", "CSS", "HTML"],
-      github: "https://github.com/jeff203-del/The_Party_Yard",
-      liveLink: "https://the-party-yard.netlify.app/"
+      github: "https://github.com/jeff203-del/The_Party_Yard ",
+      liveLink: "https://the-party-yard.netlify.app/ "
     },
    /* {
       title: "Weather Dashboard",
       description: "Real-time weather tracking application with interactive maps and 5-day forecasts.",
-      image: "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      image: "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 ",
       technologies: ["JavaScript", "React", "OpenWeather API", "Mapbox"],
-      github: "https://github.com/jeffmutembei/weather-dashboard",
-      liveLink: "https://weather-app-demo.com"
+      github: "https://github.com/jeffmutembei/weather-dashboard ",
+      liveLink: "https://weather-app-demo.com "
     },
     */
     {
       title: "Task Management App",
       description: "This is a simple web application that allows you to create a to-do list. You can add new items, mark them as completed, and remove them from the list.",
-      image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+      image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80 ",
       technologies: ["JavaScript", "React", "CSS"],
-      github: "https://github.com/jeff203-del/Task-Managemen-App",
-      liveLink: "https://tasks-do-list.netlify.app/"
+      github: "https://github.com/jeff203-del/Task-Managemen-App ",
+      liveLink: "https://tasks-do-list.netlify.app/ "
     },
     {
       title: "Portfolio Website",
       description: "Personal portfolio website showcasing projects and skills (the one you're currently viewing).",
-      image: "https://images.unsplash.com/photo-1481887328591-3e277f9473dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+      image: "https://images.unsplash.com/photo-1481887328591-3e277f9473dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80 ",
       technologies: ["React", "Tailwind CSS", "TypeScript", "Vite"],
-      github: "https://github.com/jeffmutembei/portfolio",
+      github: "https://github.com/jeffmutembei/portfolio ",
       liveLink: "#"
     },
     {
       title: "Premier Matchmaking",
       description: "This is a web application developed utilizing Reactjs, and CSS to cater to individuals searching for romantic relationships.",
-      image: "https://live-production.wcms.abc-cdn.net.au/ea0898c0f7e4910a130d740e0aa88d56?impolicy=wcms_crop_resize&cropH=3749&cropW=3749&xPos=626&yPos=0&width=862&height=862",
+      image: "https://live-production.wcms.abc-cdn.net.au/ea0898c0f7e4910a130d740e0aa88d56?impolicy=wcms_crop_resize&cropH=3749&cropW=3749&xPos=626&yPos=0&width=862&height=862 ",
       technologies: ["React Native", "Node.js", "Express", "CSS"],
-      github: "https://github.com/jeff203-del/Premier_Matchmaking",
-      liveLink: "https://premier-match.netlify.app/"
+      github: "https://github.com/jeff203-del/Premier_Matchmaking ",
+      liveLink: "https://premier-match.netlify.app/ "
     },
    /* {
       title: "Fitness Tracker",
       description: "Mobile-responsive application for tracking workouts, progress, and nutrition goals.",
-      image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 ",
       technologies: ["React Native", "Node.js", "Express", "MongoDB"],
-      github: "https://github.com/jeffmutembei/fitness-tracker",
-      liveLink: "https://fitness-tracker-demo.com"
+      github: "https://github.com/jeffmutembei/fitness-tracker ",
+      liveLink: "https://fitness-tracker-demo.com "
     },
     */
     {
       title: "ARVR Cinema",
       description: "Allows users to review and enquire about the recent movies available movies, booking, and cancellation of movie tickets.",
-      image: "https://cdn.dribbble.com/userupload/42180074/file/original-abc7f825ddf72c17ceff66d6bd10e51c.png?resize=400x0",
+      image: "https://cdn.dribbble.com/userupload/42180074/file/original-abc7f825ddf72c17ceff66d6bd10e51c.png?resize=400x0 ",
       technologies: ["React", "HTML", "Styled Components", "Firebase Auth"],
-      github: "https://github.com/jeff203-del/ARVR-Cinema",
-      liveLink: "https://arvrcinema.netlify.app/"
+      github: "https://github.com/jeff203-del/ARVR-Cinema ",
+      liveLink: "https://arvrcinema.netlify.app/ "
+    },
+    // NEW PROTOTYPE PROJECTS
+    {
+      title: "HealthConnect Pro",
+      description: "A prototype telemedicine platform connecting patients with healthcare providers for virtual consultations and appointment scheduling.",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 ",
+      technologies: ["Figma", "React", "Node.js", "WebRTC"],
+      github: "#",
+      liveLink: "#",
+      isPrototype: true
+    },
+    {
+      title: "CryptoVault Dashboard",
+      description: "A prototype cryptocurrency portfolio tracker with real-time price monitoring, asset allocation visualization, and transaction history.",
+      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80 ",
+      technologies: ["Figma", "React", "D3.js", "CoinGecko API"],
+      github: "#",
+      liveLink: "#",
+      isPrototype: true
+    },
+    {
+      title: "EcoTrack Analytics",
+      description: "A prototype sustainability dashboard for businesses to track carbon footprint, energy consumption, and environmental impact metrics.",
+      image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 ",
+      technologies: ["Figma", "Vue.js", "Chart.js", "Green Software"],
+      github: "#",
+      liveLink: "#",
+      isPrototype: true
     },
   ];
 
@@ -131,33 +159,38 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex justify-between items-center">
-                  <div className="flex gap-4">
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-light hover:text-secondary transition-colors"
-                      aria-label={`GitHub repository for ${project.title}`}
-                    >
-                      <FontAwesomeIcon icon={faGithub} size="lg" />
-                    </a>
-                    <a
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-light hover:text-secondary transition-colors"
-                      aria-label={`Live demo for ${project.title}`}
-                    >
-                      <FontAwesomeIcon icon={faChrome} size="lg" />
-                    </a>
-                  </div>
+                  {/* Only show GitHub and Chrome icons for non-prototype projects */}
+                  {!project.isPrototype && (
+                    <div className="flex gap-4">
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-light hover:text-secondary transition-colors"
+                        aria-label={`GitHub repository for ${project.title}`}
+                      >
+                        <FontAwesomeIcon icon={faGithub} size="lg" />
+                      </a>
+                      <a
+                        href={project.liveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-light hover:text-secondary transition-colors"
+                        aria-label={`Live demo for ${project.title}`}
+                      >
+                        <FontAwesomeIcon icon={faChrome} size="lg" />
+                      </a>
+                    </div>
+                  )}
+                  {/* Add spacer for prototypes to push button to right */}
+                  {project.isPrototype && <div></div>}
                   <a
                     href={project.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-secondary hover:text-accent transition-colors flex items-center"
                   >
-                    <span className="mr-1">View Project</span>
+                    <span className="mr-1">{project.isPrototype ? "View Prototype" : "View Project"}</span>
                     <FontAwesomeIcon icon={faArrowRight} size="sm" />
                   </a>
                 </div>
@@ -168,7 +201,7 @@ const Projects = () => {
 
         <div className="text-center mt-12">
           <a
-          //  href="https://github.com/jeff203-del"
+          //  href="https://github.com/jeff203-del "
           //  target="_blank"
           //  rel="noopener noreferrer"
           //  className="btn btn-primary"
