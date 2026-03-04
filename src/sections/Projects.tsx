@@ -194,8 +194,9 @@ const Projects = () => {
         </h2>
         <p className="text-center text-gray-300 mb-16 max-w-3xl mx-auto">
           A selection of my recent projects. Each one has presented unique challenges and learning opportunities.
-          <br />
-  (more coming soon)
+          <h3 className="text-3xl font-semibold text-center mb-6 text-light">
+          more coming soon!
+        </h3>
         </p>
 
         {/* Completed Projects Grid */}
@@ -208,7 +209,7 @@ const Projects = () => {
         {/* UX/UI Designs Section */}
         <div className="mt-20">
           <h3 className="text-2xl font-semibold text-center mb-10 text-light">
-            UX/UI Designs
+            UX/UI Designs(Prototypes)
           </h3>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {prototypeProjects.map((project, index) => (
