@@ -26,7 +26,7 @@ const Projects = () => {
     },
     */
     {
-      title: "The Party Yard",
+      title: "The Party Yard(Pink Palace)",
       description: "A Website where users can book photography grounds, host wedding parties, and celebrate birthdays.",
       image: "https://marqueemonkeys.com.au/wp-content/uploads/2019/02/marquee-monkeys-2-980x523.jpg ",
       technologies: ["JavaScript", "React", "CSS", "HTML"],
