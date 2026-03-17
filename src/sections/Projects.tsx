@@ -51,12 +51,12 @@ const Projects = () => {
       liveLink: "https://tasks-do-list.netlify.app/ "
     },
     {
-      title: "Portfolio Website",
-      description: "Personal portfolio website showcasing projects and skills (the one you're currently viewing).",
-      image: "https://images.unsplash.com/photo-1481887328591-3e277f9473dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80 ",
-      technologies: ["React", "Tailwind CSS", "TypeScript", "Vite"],
-      github: "https://github.com/jeffmutembei/portfolio ",
-      liveLink: "#"
+      title: "Autoneural",
+      description: "Autoneural is a web application designed to simplify the buying and selling of cars. With its sleek UI and powerful backend, it provides users with a delightful experience to explore and list cars effortlessly.",
+      image: "https://www.topgear.com/sites/default/files/2023/09/33156-RS7PERFORMANCEASCARIBLUEJORDANBUTTERS132.jpg ",
+      technologies: ["JavaScript", "Tailwind CSS", "TypeScript", "Vite"],
+      github: "https://github.com/jeff203-del/Autoneural ",
+      liveLink: "https://autoneural-cars.vercel.app/"
     },
     {
       title: "Premier Matchmaking",
