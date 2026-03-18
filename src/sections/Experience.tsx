@@ -4,15 +4,15 @@ const Experience = () => {
       company: "Kahustle",
       logo: "https://kahustle.co.ke/wp-content/uploads/2025/04/350-LOGO-2.png",
       role: "Web Developer",
-      period: "2025 March-June",
+      period: "2025 April-July",
       description: "Supported the development and testing of Kahustle, a Kenyan online classifieds platform, focusing on user experience, functionality, and feature enhancements"
     },
     {
-      company: "Elegant Beauty Brand",
+      company: "InfoTech",
       logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/large/s3/etcetera_accesorios_logo.png?1f3ZJE3.gGWD57HiExGrJNwkyo2Yy.y3&itok=UhLxNzVR",
-      role: "Graphic Designer",
-      period: "2025 August-November",
-      description: "Developed on‑brand graphics for social media, boosting Instagram engagement by 45%. I designed premium packaging for a new wig line, driving a 20% increase in pre‑launch orders. "
+      role: "Junior Software Developer",
+      period: "2025 Jan-March",
+      description: "Developed custom commercial web applications, working closely with architects and development teams to define system architecture and deployment strategies. "
     },
     
     {
