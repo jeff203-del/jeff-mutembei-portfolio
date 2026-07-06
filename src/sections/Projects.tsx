@@ -18,8 +18,8 @@ const Projects = () => {
     },
     {
       title: "IntelliSOFT Patient management system",
-      description: "This is a full-stack web application for patient registration, vitals recording, BMI calculation, and health assessments.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOgwbk9C2c-fIqidBQzOTT2sXPT93QHvafYCKBRNY7uA&s=10 ",
+      description: "This is a full-stack web application for patient registration, vitals recording, BMI calculation, and health assessments with a Responsive, accessible, Health IT-optimized UI.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHtRaLO0P2PYJB4vC6TUBMDE30BDgE-68mQueIv2naIymZnVMLjNSHIaI&s=10",
       technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
       github: "https://github.com/jeff203-del/intellisoft-patient-app/",
       liveLink: "https://intellisoft-patient-app.vercel.app/"
