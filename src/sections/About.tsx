@@ -20,10 +20,10 @@ const About = () => {
               Hey! My name is Jeff Mutembei. I am from Nairobi, Kenya.
             </p>
             <p className="text-gray-300 mb-4">
-              I am a passionate Front-End Engineer. I have strong technical skills and extensive experience in crucial frontend technologies such as JavaScript, ReactJS, HTML, and CSS. With a creative flair and an eye for design, I can skilfully bring an application to life, refining every detail to achieve a polished end result. I am also committed to keeping pace with the ever-evolving technological landscape. I have a background in computer science with a specialization in web technologies.
+              I design and build complete web/mobile applications — from the interface a user touches to the systems running quietly behind it. On the front end, I work primarily in JavaScript and React, crafting interfaces that are fast, responsive, and genuinely pleasant to use, with the kind of attention to detail that comes from having a designer's eye as much as a developer's. On the back end, I build with Node.js and Express, working with databases like PostgreSQL and MongoDB to design clean, reliable APIs that keep everything running smoothly under the hood.
             </p>
             <p className="text-gray-300 mb-6">
-              When I'm not coding or designing, I enjoy hiking, photography, and exploring new places. I'm also a big fan of science fiction and always up for a good conversation about the latest tech trends. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
+            I hold a Bachelor of Science in Information Technology with a specialization in Software Development, and I stay close to the edge of tech field — picking up new tools and patterns as they emerge instead of waiting for them to become the standard. Outside of code, you'll usually find me planning a hike, chasing good light for photography, or lost in a science fiction novel. I love a good conversation about where tech is headed — it's part of why I do this work in the first place. I'm always looking to build software and experiences that people actually enjoy using, end to end.  
             </p>
             <div className="flex flex-wrap gap-4">
               <a
