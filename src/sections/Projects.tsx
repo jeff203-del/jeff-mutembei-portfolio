@@ -16,15 +16,15 @@ const Projects = () => {
       github: "https://farm-online.netlify.app/ ",
       liveLink: "https://farm-online.netlify.app/ "
     },
-    /*{
-      title: "E-commerce Platform",
-      description: "A full-featured e-commerce platform with product management, cart functionality, and payment processing.",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80 ",
+    {
+      title: "IntelliSOFT Patient management system",
+      description: "This is a full-stack web application for patient registration, vitals recording, BMI calculation, and health assessments.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOgwbk9C2c-fIqidBQzOTT2sXPT93QHvafYCKBRNY7uA&s=10 ",
       technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-      github: "https://github.com/jeffmutembei/ecommerce-platform ",
-      liveLink: "https://ecommerce-demo.com "
+      github: "https://github.com/jeff203-del/intellisoft-patient-app/",
+      liveLink: "https://intellisoft-patient-app.vercel.app/"
     },
-    */
+    
     {
       title: "The Party Yard(Pink Palace)",
       description: "A Website where users can book photography grounds, host wedding parties, and celebrate birthdays.",
