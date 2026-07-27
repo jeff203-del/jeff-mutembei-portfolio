@@ -4,14 +4,14 @@ const Experience = () => {
       company: "Kahustle",
       logo: "https://kahustle.co.ke/wp-content/uploads/2025/04/350-LOGO-2.png",
       role: "Full-Stack Developer & IT Systems Lead",
-      period: "2025 August-November",
+      period: "2025 May-August",
       description: "Supported the development and testing of Kahustle, a Kenyan online classifieds platform, focusing on user experience, functionality, and feature enhancements."
     },
     {
       company: "InfoTech",
       logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/large/s3/etcetera_accesorios_logo.png?1f3ZJE3.gGWD57HiExGrJNwkyo2Yy.y3&itok=UhLxNzVR",
       role: "Junior Software Developer",
-      period: "2025 January-June",
+      period: "2024 April-2025 March",
       description: "Coordinated with architects and development teams to define system architecture, deployment strategies, and maintenance schedules for commercial applications. "
     },
     
@@ -19,7 +19,7 @@ const Experience = () => {
       company: "Skycorp solutions",
       logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/large/s3/avatar_white.jpg?NKLva1xpa1py3FpzjElVTC3UBJmkj7pV&itok=DkC6lwAH",
       role: "IT & Web Systems Technician",
-      period: "2024 July-December",
+      period: "2023 July-2024 February",
       description: "Worked on various client projects building responsive websites. Collaborated with design teams to implement UI/UX designs using modern web technologies."
     }
   ];
