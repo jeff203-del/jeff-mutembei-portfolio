@@ -85,8 +85,8 @@ const Projects = () => {
     },
     {
       title: "Open environ",
-      description: "Open environ is a gamified learning platform that makes forest conservation education engaging and social. Learners can explore content, grow their progress, connect with friends, and compare progress on a leaderboard.",
-      image: "https://www.oecd.org/adobe/dynamicmedia/deliver/dm-aid--c2e60995-cd66-4b45-b44d-6060d43d4fe8/4ea7d35f-en.jpg?preferwebp=true&quality=80",
+      description: "Open environ is a gamified learning platform that makes forest conservation education engaging and social.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3VzuEuM_0SvYj65CtR_tv1h1-Vs9okE9-3eUXegdkwLe4LTnWYAevP3b&s=10",
       technologies: ["React", "Next.js", "TypeScript"],
       github: "https://github.com/jeff203-del/Open-environ",
       liveLink: "https://open-environ.vercel.app/"
