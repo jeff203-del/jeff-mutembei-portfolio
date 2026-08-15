@@ -2,7 +2,7 @@ const Experience = () => {
   const experiences = [
     {
       company: "Kahustle(Intern)",
-      logo: "https://kahustle.co.ke/wp-content/uploads/2025/04/350-LOGO-2.png",
+      logo: "logolog.jpg",
       role: "Full-Stack Developer & IT Systems Lead",
       period: "2025 May-August",
       description: "Supported the development and testing of Kahustle, a Kenyan online classifieds platform, focusing on user experience, functionality, and feature enhancements."
