@@ -1,7 +1,7 @@
 const Experience = () => {
   const experiences = [
     {
-      company: "Kahustle(Intern)",
+      company: "Kahustle (Intern)",
       logo: "https://kahustle.co.ke/wp-content/uploads/2026/03/images1.png",
       role: "Full-Stack Developer & IT Systems Lead",
       period: "2025 May-August",
@@ -16,7 +16,7 @@ const Experience = () => {
     },
     
     {
-      company: "Skycorp solutions(Intern)",
+      company: "Skycorp (Intern)",
       logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/large/s3/avatar_white.jpg?NKLva1xpa1py3FpzjElVTC3UBJmkj7pV&itok=DkC6lwAH",
       role: "IT & Web Systems Technician",
       period: "2023 July-2024 February",
@@ -66,7 +66,7 @@ const Experience = () => {
             rel="noopener noreferrer"
             className="btn btn-primary"
           >
-            View Full Resume
+            View Full résumé
           </a>
         </div>
       </div>
