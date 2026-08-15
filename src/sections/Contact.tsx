@@ -78,29 +78,52 @@ const Contact = () => {
                 <div className="w-12 h-12 bg-[#2a2f45] rounded-full flex items-center justify-center mr-4">
                   <FontAwesomeIcon icon={faEnvelope} size="lg" className="text-secondary" />
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-light">Email Me</h3>
-                  <a
-                    href="mailto:jeff@mutembei.com"
-                    className="text-secondary hover:text-accent transition-colors"
-                  >
-                    jeffmutembei203@gmail.com
-                  </a>
-                </div>
-              </div>
-            </div>
+                
+              <div>
+  <h3 className="text-xl font-semibold text-light">Email Me</h3>
+  <a
+    href="mailto:jeff@mutembei.com"
+    className="text-secondary hover:text-accent transition-colors"
+  >
+    jeffmutembei203@gmail.com
+  </a>
+</div>
 
-            <div className="mb-10">
-              <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-[#2a2f45] rounded-full flex items-center justify-center mr-4">
-                  <FontAwesomeIcon icon={faLocationDot} size="lg" className="text-secondary" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-light">Location</h3>
-                  <p className="text-gray-300">Nairobi, Kenya</p>
-                </div>
-              </div>
-            </div>
+<div className="mb-10">
+  <div className="flex items-center mb-4">
+    <div className="w-12 h-12 bg-[#2a2f45] rounded-full flex items-center justify-center mr-4">
+      <FontAwesomeIcon icon={faLocationDot} size="lg" className="text-secondary" />
+    </div>
+    <div>
+      <h3 className="text-xl font-semibold text-light">Location</h3>
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=Nairobi,+Kenya"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-300 hover:text-accent transition-colors"
+      >
+        Nairobi, Kenya
+      </a>
+    </div>
+  </div>
+</div>
+
+<div className="mb-10">
+  <div className="flex items-center mb-4">
+    <div className="w-12 h-12 bg-[#2a2f45] rounded-full flex items-center justify-center mr-4">
+      <FontAwesomeIcon icon={faPhone} size="lg" className="text-secondary" />
+    </div>
+    <div>
+      <h3 className="text-xl font-semibold text-light">Phone</h3>
+      <a
+        href="tel:+254769589130"
+        className="text-gray-300 hover:text-accent transition-colors"
+      >
+        +254 769 589 130
+      </a>
+    </div>
+  </div>
+</div>
 
             <div className="bg-[#1e2233] p-6 rounded-lg border border-gray-800 shadow-lg">
               <h3 className="text-xl font-semibold mb-4 text-light">Available For</h3>
