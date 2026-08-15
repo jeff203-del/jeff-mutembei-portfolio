@@ -104,7 +104,7 @@ const Contact = () => {
                     href="https://www.google.com/maps/search/?api=1&query=Nairobi,+Kenya"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-accent transition-colors"
+                    className="text-secondary hover:text-accent transition-colors"
                   >
                     Nairobi, Kenya
                   </a>
@@ -122,7 +122,7 @@ const Contact = () => {
                   <h3 className="text-xl font-semibold text-light">Phone</h3>
                   <a
                     href="tel:+254769589130"
-                    className="text-gray-300 hover:text-accent transition-colors"
+                    className="text-secondary hover:text-accent transition-colors"
                   >
                     +254 769 589 130
                   </a>
