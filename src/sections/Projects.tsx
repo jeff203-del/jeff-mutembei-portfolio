@@ -201,8 +201,11 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-[#1e2233]">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-semibold text-center mb-6 text-light">
-          What I've Done
+          Projects
         </h2>
+        <h3 className="text-3xl font-semibold text-center mb-6 text-light">
+          What I've Done
+        </h3>
         <p className="text-center text-gray-300 mb-16 max-w-3xl mx-auto">
           A selection of my recent projects. Each one has presented unique challenges and learning opportunities.
           <br />
